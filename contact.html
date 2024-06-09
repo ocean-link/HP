@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font Awesome 6 Free:wght@400&display=swap">
+    <title>お問い合わせフォーム</title>
+</head>
+<body>
+    <div class="contact3">
+        <header class="main">
+            <div class="sub-header1">
+                <img class="icon1" alt="" src="./public/@2x.png" />
+                <div class="div10">
+                    <a class="news1">CONTACT</a>
+                    <div class="wrapper">
+                        <div class="div11">お問い合わせ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header1">
+                <div class="header-bg1"></div>
+                <nav class="nav1">
+                    <a class="contact4">CONTACT</a>
+                    <a class="recruit2">RECRUIT</a>
+                    <a class="company2">COMPANY</a>
+                    <a class="service7">SERVICE</a>
+                    <a class="service8">SERVICE</a>
+                </nav>
+                <a class="ocean-link1"> Ocean Link</a>
+            </div>
+        </header>
+        <div class="breadcrumb2">
+            <div class="breadcrumb-bg1"></div>
+            <div class="breadcrumb3">
+                <div class="breadcrumb-content">
+                    <div class="div12"></div>
+                    <div class="home-container1">
+                        <span>HOME</span>
+                        <span class="contact5"> &gt; CONTACT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="form-container">
+            <section class="form-container1">
+                <div class="form-title-container">
+                    <div class="div13">
+                        ご依頼やお見積りなど、お気軽にご相談ください。
+                    </div>
+                </div>
+                <div class="div14">
+                    <form action="https://formsubmit.co/el/lavece" method="POST">
+                        <div class="form-fields">
+                            <div class="inquiry-type-field">
+                                <div class="div15">
+                                    <div class="inquiry-type-label-container">
+                                        <div class="div16">お問い合わせ種別</div>
+                                        <div class="required">
+                                            <div class="div17">*必須</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div18">
+                                    <label>
+                                        <input type="radio" name="inquiry_type" value="ご依頼・ご相談" required />
+                                        ご依頼・ご相談
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="inquiry_type" value="お見積りのご依頼" />
+                                        お見積りのご依頼
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="inquiry_type" value="採用について" />
+                                        採用について
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="inquiry_type" value="その他" />
+                                        その他
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="name-field">
+                                <div class="div27">
+                                    <div class="div28">
+                                        <div class="name-required-label">
+                                            <div class="div29">お名前</div>
+                                            <div class="name-required-mark">
+                                                <div class="div30">*必須</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input class="input" type="text" name="name" required />
+                                </div>
+                            </div>
+                            <div class="company-name-field">
+                                <div class="div31">
+                                    <div class="div32">
+                                        <div class="company-name-required-label">
+                                            <div class="div33">会社名</div>
+                                            <div class="company-name-required-mark">
+                                                <div class="div34">*必須</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input class="input1" type="text" name="company_name" required />
+                                </div>
+                            </div>
+                            <div class="email-field">
+                                <div class="phone-format">
+                                    <div class="mail">
+                                        <div class="div35">
+                                            <div class="email-required-label">
+                                                <div class="div36">メールアドレス</div>
+                                                <div class="email-required-mark">
+                                                    <div class="div37">*必須</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input class="input" type="email" name="email" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="phone-field">
+                                <div class="phone-number-container">
+                                    <div class="div39">電話番号</div>
+                                    <div class="phone-number-format">
+                                        <div class="div40">（半角数字ハイフンなし）</div>
+                                    </div>
+                                    <input class="input2" type="text" name="phone" />
+                                </div>
+                            </div>
+                            <div class="message-field">
+                                <div class="div41">お問い合わせ内容</div>
+                                <textarea
+                                    class="message-hint"
+                                    placeholder="お問い合わせ内容を具体的にご記入くださいませ。"
+                                    name="message"
+                                    required
+                                    rows="10"
+                                    cols="30"
+                                ></textarea>
+                            </div>
+                            <div class="referral-field">
+                                <div class="div42">
+                                    <div class="referral-label-container">
+                                        <div class="ocean-link2">
+                                            Ocean Linkをどちらでお知りになりましたか？
+                                        </div>
+                                        <div class="referral-source-required">
+                                            <div class="div43">*必須</div>
+                                        </div>
+                                    </div>
+                                    <input class="input3" placeholder="選択してください" name="referral_source" required type="text" />
+                                </div>
+                            </div>
+                            <div class="company-name-field1">
+                                <button class="button" type="submit">
+                                    <div class="div45"></div>
+                                    <b class="more1">送信する</b>
+                                    <div class="caret-right1">
+                                        <div class="div46"></div>
+                                        <img
+                                            class="caret-right-14px-icon1"
+                                            alt=""
+                                            src="./public/caretright-14px.svg"
+                                        />
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer1">
+            <div class="copyright-ocean1">Copyright © Ocean Link</div>
+        </footer>
+    </div>
+</body>
+</html>
